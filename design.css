@@ -19,7 +19,7 @@
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 90%;
 }
 .sticky + #cent {
   padding-top: 102px;
@@ -34,7 +34,7 @@
   #img{
     display: block;
     max-width:230px;
-    max-height:95px;
+    max-height:85px;
     width: auto;
     height: auto;
     float:left;
