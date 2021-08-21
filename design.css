@@ -21,7 +21,7 @@
   top: 0;
   width: 100%;
 }
-.sticky + .content {
+.sticky + #cent {
   padding-top: 102px;
 }
 
