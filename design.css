@@ -71,13 +71,6 @@
 
   }
   #img_to_top{
-    float: right;
-  max-width: 70px;
-  position: fixed;
-  }
-  @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
-    }
+  max-width: 4%;
+  position:fixed;
   }
