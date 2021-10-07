@@ -11,7 +11,6 @@
   header{
     text-align: center;
     font-size: 35px;
-  background-color: darkgray;
   height:136px;
   width:100%;
   padding: 3px;
@@ -26,7 +25,6 @@
 }
 
   .option{
-    background-color: blueviolet;
     border-radius: 5px;
     width: 100%;
     height: 50px;
@@ -54,11 +52,26 @@
   }
   #cent{
   border: 1px ;
-  height:1000px;
-  width:100%
+  height:500px;
+  width:100%;
 
   }
-  #img_to_top{
+@media (min-width: 1000px){
+#section{
+padding:20px;
+	border:1px;
+	width:393px;
+	height:500px;
+}  }
+@media (max-width: 1000px){
+#section2{
+	border:1px;
+	width:393px;
+	height:500px;
+	float:bottom;
+}  }
+
+#img_to_top{
   max-width: 30px;
   position: fixed;
   bottom: 0;
@@ -67,7 +80,6 @@
   footer{
   padding: 10px;
   color: white;
-    
   }
   
   strong{
